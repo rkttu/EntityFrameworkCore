@@ -9,6 +9,11 @@
     <PackageReleaseNotes>This NuGet package contains a SmartDataContextFactory class that makes it easy to inject connection string settings from the Entity Framework 1.0 DbContext class.</PackageReleaseNotes>
     <Description>This package contains helper classes that simplify tedious tasks that are repeated in Entity Framework Core 1.0.</Description>
     <Copyright>(c) ClouDeveloper, All rights reserved.</Copyright>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/ClouDeveloper/EntityFrameworkCore/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/ClouDeveloper/EntityFrameworkCore</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ClouDeveloper/EntityFrameworkCore.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>EntityFrameworkCore BenjaminDay ClouDeveloper Contrib</PackageTags>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
