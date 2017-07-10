@@ -52,7 +52,7 @@ public class PointSavingDataContext : DbContext, IDesignTimeDbContextFactory<Sam
     public SampleDataContext CreateDbContext(string[] args)
     {
         return new SampleDataContext(new DbContextOptionsBuilder<SampleDataContext>()
-            .UseSqlServer(@"Data Source=(localdb)\hubk;Integrated Security=SSPI;Initial Catalog=Sample;")
+            .UseSqlServer(@"Data Source=(localdb)\somewhere;Integrated Security=SSPI;Initial Catalog=Sample;")
             .Options);
     }
 
